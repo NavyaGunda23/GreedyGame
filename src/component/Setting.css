@@ -1,0 +1,34 @@
+.setting-item{
+    border: 1px solid #dedede;
+    border-radius: 4px;
+    float: left;
+    padding: 10px 12px;
+    margin-right: 15px;
+    display: inline-block;
+}
+.setting-list{
+    display: flex;
+    /* width: 100%; */
+    /* margin-bottom: 20px; */
+    padding: 20px;
+    /* justify-content: flex-end; */
+}
+.setting-item.active{
+    border-left: 3px solid blue;
+}
+.setting-list{
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+}
+.setting-parent{
+    border: 1px solid #dedede;
+    border-radius: 4px;
+    clear: both;
+}
+.action-section{
+    display: flex;
+    justify-content: flex-end;
+    /* width: 100%; */
+    /* margin-bottom: 20px; */
+    padding: 20px;
+}

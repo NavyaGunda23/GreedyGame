@@ -1,0 +1,47 @@
+.primary{
+    padding: 10px 12px;
+    border: 1px solid #dedede;
+    border-radius: 4px;
+    background-color: white;
+    margin-left: 20px;
+}
+
+.primary i{
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 5px;
+    
+}
+.primary:hover{
+    background-color: #e7e7e7;
+}
+
+
+.icon-setting{
+    background: url(../../src/icon-setting.svg);
+   
+}
+
+.icon-calendar{
+    background: url(../../src/icon-calendar.svg);
+  }
+
+  .secondary{
+    padding: 10px 12px;
+    border: 1px solid #1f64ca;
+    border-radius: 4px;
+    background-color: #1f64ca;
+    margin-left: 20px;
+    color: white;
+}
+
+.secondary i{
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 5px;
+    
+}

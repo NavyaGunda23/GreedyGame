@@ -1,0 +1,40 @@
+
+.table-border thead tr th {
+    font-weight: normal !important;
+    padding: 15px 10px;
+    display: table-cell;
+    vertical-align: middle;
+    line-height: normal;
+    text-transform: uppercase;
+    outline: none;
+    background: #f8f9fb;
+    border-bottom: 1px solid #E8E8E8;
+    top: 0;
+    z-index: 8;
+    text-align: left;
+}
+
+.table-border td {
+    padding: 15px 10px 15px 10px;
+    display: table-cell;
+    vertical-align: middle !important;
+    border-radius: 2px;
+    border-bottom: 1px solid #E8E8E8;
+    background: #fff;
+    text-align: left;
+}
+.table-border{
+    margin-top: 20px;
+    clear: both;
+    
+}
+.table-container{
+    padding-top: 60px;
+}
+.icon-filter{
+    width: 20px;
+    height: 20px;
+    background: url('../filter.svg');
+    display: inline-block;
+    margin-right: 10px;
+}

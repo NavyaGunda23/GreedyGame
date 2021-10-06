@@ -1,0 +1,27 @@
+.no-data-container{
+    color: #7C7C7C;
+    background-color: #F3F3F3;
+    border-color: #E7E7E7;
+    text-align: center;
+    padding: 110px;
+    display: flex;
+    justify-content: center;
+    clear: both;
+    margin-top: 90px;
+    align-items: center;
+}
+h3{
+    color: Black;
+    margin-bottom: 10px !important;
+    margin-top: 5px;
+}
+.no-data-image{
+    width: 140px;
+    height: 140px;
+    background: url('../nodata.svg');
+    display: inline-block;
+    float: left;
+}
+.no-data-info{
+    text-align: left;
+}
